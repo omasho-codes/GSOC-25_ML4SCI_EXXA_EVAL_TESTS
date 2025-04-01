@@ -14,7 +14,7 @@ Image-Based-Test  [here](https://www.kaggle.com/code/suryatrainer/image-based-te
 
 Brief Overview - 
 
-Model Arch : Simple 3 layer D(8) Equivariant Encoder-Decoder with ELU as non-linearity, Group-pooling & Global Average Pooling for latent vectors, Batch-Norm/MLPs, Multi-                Scale Pyramid Feature Maps, LieConvs, didn't helped given such small dataset. 
+Model Arch : Simple 3 layer D(8) Equivariant Encoder-Decoder with ELU as non-linearity, Group-pooling & Global Average Pooling for latent vectors, Batch-Norm/MLPs, Multi-                Scale Pyramid Feature Maps, LieConvs, didn't helped given such small dataset. (Traditional AE failed miserably, here because even with augmentations self                    organising property of filters indee`p CNNs is seen only with large , diverse dataset (here they were prone to overfit to certain types of disks leading                     collapse of latent space - memorising over learning here I myself introduced organised features maps with respect to group                transformations of                 D(8) which handled pretty well given this small dataset.
 
 
             →EquivariantAE(
