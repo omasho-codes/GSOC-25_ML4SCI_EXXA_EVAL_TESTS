@@ -6,13 +6,13 @@ This repo contains solutions to evaluation tests of EXXA1 - (General Test + Imag
 
 I had trouble installing astropy in Colab , so I am sharing my notebook in ipynb and Kaggle links
 
-For detailed solution, see readme_EXXA.pdf [here](https://github.com/omasho-codes/GSOC-25_ML4SCI_EXXA_EVAL_TESTS/blob/main/readme_EXXA.pdf)
+## For detailed solution, see readme_EXXA.pdf [here](https://github.com/omasho-codes/GSOC-25_ML4SCI_EXXA_EVAL_TESTS/blob/main/readme_EXXA.pdf)
 
-General-Test  [here](https://www.kaggle.com/code/ujjwallal/general-test)
+## General-Test  [here](https://www.kaggle.com/code/ujjwallal/general-test)
 
-Image-Based-Test  [here](https://www.kaggle.com/code/suryatrainer/image-based-test)
+## Image-Based-Test  [here](https://www.kaggle.com/code/suryatrainer/image-based-test)
 
-Brief Overview - 
+### Brief Overview - 
 
 Model Arch : Simple 3 layer D(8) Equivariant Encoder-Decoder with ELU as non-linearity, Group-pooling & Global Average Pooling for latent vectors, Batch-Norm/MLPs, Multi-                Scale Pyramid Feature Maps, LieConvs, didn't helped given such small dataset. (Traditional AE failed miserably, here because even with augmentations self                    organising property of filters indee`p CNNs is seen only with large , diverse dataset (here they were prone to overfit to certain types of disks leading                     collapse of latent space - memorising over learning here I myself introduced organised features maps with respect to group                transformations of                 D(8) which handled pretty well given this small dataset.
 
