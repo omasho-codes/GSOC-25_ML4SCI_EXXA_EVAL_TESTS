@@ -88,6 +88,21 @@ Model Arch : Simple 3 layer D(8) Equivariant Encoder-Decoder with ELU as non-lin
 
 ![output_cluster_1 (7)](https://github.com/user-attachments/assets/92c2cf35-bba6-4c3e-9d66-65293cb73198)
 
+
+
+
+### Some Reconstructions :
+
+![image](https://github.com/user-attachments/assets/52f597c3-84f9-4f23-8636-2cb2f15595d8)
+
+
+![image](https://github.com/user-attachments/assets/985a3a97-610e-4564-8875-5ab65520f723)
+
+
+![image](https://github.com/user-attachments/assets/500fdfd7-1b96-4532-b4a0-5ca7f67a1703)
+
+
+
     
   	
 
