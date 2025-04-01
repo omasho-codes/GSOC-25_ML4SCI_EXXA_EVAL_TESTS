@@ -78,7 +78,7 @@ Model Arch : Simple 3 layer D(8) Equivariant Encoder-Decoder with ELU as non-lin
     MSE : 0.091, 0.043 (single, ensemble x10)
     MSSSIM : 0.971 (ensemble x10)
     
-### CLUSTER 0 : with almost all keplerian motion following disks together with some containig planets
+### CLUSTER 0 : almost all keplerian motion following disks with some containing planets
 
 ![output_cluster_0 (5)](https://github.com/user-attachments/assets/9460422b-9183-492f-a91a-43dd45424299)
 
@@ -102,7 +102,7 @@ Model Arch : Simple 3 layer D(8) Equivariant Encoder-Decoder with ELU as non-lin
 
 ![image](https://github.com/user-attachments/assets/500fdfd7-1b96-4532-b4a0-5ca7f67a1703)
 
-
+ ### ॐ
 
     
   	
