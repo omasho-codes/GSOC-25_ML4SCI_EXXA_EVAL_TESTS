@@ -64,11 +64,11 @@ Model Arch : Simple 3 layer D(8) Equivariant Encoder-Decoder with ELU as non-lin
                                         loss = self.criterion(features_x, features_y)
                                         return loss
 
-                                
+                                            
                 → optimizer = optim.Adam()
                 → number of epochs= 100
                 → batch_size = 16
-
+                → image_size = 256*256
                 → learning_rate =  0.01
                 → scheduler = ReduceLROnPlateau
 
