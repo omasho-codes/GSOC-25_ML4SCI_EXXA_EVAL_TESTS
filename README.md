@@ -31,6 +31,9 @@ Architecture Discussion :
               the data that they have seen, meaning not true equivariance hence finetuning on this small data that they 
               havent seen would have much higher chanes of overfitting.
 
+              Adding a additional information (inductive bias) about the data (symmteries) in the architecture itself 
+              proved to be much better and generalised than using augmentations.
+
 
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------
             
