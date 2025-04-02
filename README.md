@@ -4,7 +4,7 @@
 
 This repo contains solutions to evaluation tests of EXXA1 - (General Test + Images Based Test) 
 
-I had trouble installing astropy in Colab , so I am sharing my notebook in ipynb and Kaggle links
+I had trouble installing astropy in Colab , so I am sharing my notebook in ipynb and Kaggle Notebooks
 
 ## For detailed solution [here](https://github.com/omasho-codes/GSOC-25_ML4SCI_EXXA_EVAL_TESTS/blob/main/readme_EXXA.pdf)
 
