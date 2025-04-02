@@ -16,6 +16,8 @@ I had trouble installing astropy in Colab , so I am sharing my notebook in ipynb
 
 Architecture Discussion :
 
+              Very shallow and fast 4.1 kB model , with 3 conv-layer with [4,8,16]*(16 from group dim) feature channels 
+
               Simple 3 layer D(8) Equivariant Encoder-Decoder with
               ELU as non-linearity, 
               Group-pooling & Global Average Pooling for latent vectors, 
@@ -144,6 +146,8 @@ Clearly highlighting , model does captures the kinks and disturbances present in
 
 ![image](https://github.com/user-attachments/assets/7ceb1b86-002d-46fb-a427-05be366fe4eb)
 
+
+![image](https://github.com/user-attachments/assets/dc6fb26f-5960-4326-8fb0-e58c72df81b3)
 
  ## ॐ
 
