@@ -149,6 +149,18 @@ Clearly highlighting , model does captures the kinks and disturbances present in
 
 ![image](https://github.com/user-attachments/assets/dc6fb26f-5960-4326-8fb0-e58c72df81b3)
 
+
+![image](https://github.com/user-attachments/assets/835d6a9e-a78d-4a41-bf86-17f8a7799580)
+
+
+# References 
+
+[Equivariance versus Augmentation for Spherical Images](http://arxiv.org/abs/2202.03990)
+
+[General E(2)-Equivariant Steerable CNNs](https://arxiv.org/abs/2202.03990)
+
+[Generalizing Convolutional Neural Networks for Equivariance to Lie Groups on Arbitrary Continuous Data](https://arxiv.org/abs/2002.12880)
+
  ## ॐ
 
     
