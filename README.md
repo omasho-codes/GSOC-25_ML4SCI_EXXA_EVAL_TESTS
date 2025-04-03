@@ -173,7 +173,7 @@ small dataset.
   
 | **Camera Movement**                                      | **Transformation**         |
 |---------------------------------------------------------|---------------------------|
-| Rotate Camera (Yaw, Pitch, Roll)                        | Rotation                  |
+| Rotate Camera                        | Rotation                  |
 | Move Camera Forward/Backward                            | Scaling (Uniform)         |
 | Move Camera in an Arc Around Object (Keeping Focus on Object) | Projective Transformation |
 | Tilt Camera While Keeping It in the Same Position (Slanting View) | Shear               |
