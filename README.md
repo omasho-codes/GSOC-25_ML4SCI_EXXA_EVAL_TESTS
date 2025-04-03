@@ -1,6 +1,8 @@
 # <p align="center">ML4SCI_25 EXXA </p>
 
-I had trouble installing astropy in Colab , so I am sharing my notebook in ipynb and Kaggle Notebooks
+### Contact : omasho.works@gmail.com
+
+I had trouble installing astropy in Colab , so I am sharing my notebook in ipynb and Kaggle Notebooks.
 
 ## General Task & Images Based Task :  Unsupervised Clustering of Disks & Autoencoder with accesible latent space
 
@@ -37,7 +39,7 @@ I had trouble installing astropy in Colab , so I am sharing my notebook in ipynb
 
 ### Final Selection of Architecture :
 
-- Made a shallow & light **3-layer D(8)-equivariant encoder and decoder** with minimal number of feature channels with [escnn](https://github.com/QUVA-Lab/escnn) library to avoid collapsing latent space and result decoder memorising.
+- Made a shallow & light (4.1 MB) **3-layer D(8)-equivariant encoder and decoder** with minimal number of feature channels with [escnn](https://github.com/QUVA-Lab/escnn) library to avoid collapsing latent space and result decoder memorising.
 
 - This gave similar results in terms of reconstruction but now model was truly equivarint to D(8)-transformations (Flips+*rotations) while mimicking E(2)-equivariance providing much better latent representations.  
 
