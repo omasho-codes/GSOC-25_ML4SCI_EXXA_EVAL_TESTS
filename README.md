@@ -99,8 +99,11 @@ small dataset.
   
 # Reconstructions :
 
+## Note: My losses were focal losses instead of traditional MSE, instead I just to see all results in the notebook by reconstructing all outputs.
+by main focus was on structure preservation, focusing on spots and eliminating some poor reconstrcutions (see above image). 
+               
 ## Metrics :
-
+            
                 → MSE : 0.091, 0.043 (single, ensemble x10) 
                 → MSSSIM : 0.971 (ensemble x10)
                 → Perceptual Loss : 0.251
@@ -218,7 +221,7 @@ small dataset.
 ## Hyperparameters :
 
                 → Train/Test Split : 10 Kfolds (1:9 - cv:train)
-                → Loss =   orthogonality_loss + 2*focal_perceptual_Loss + focal_mse_reconstruction                         
+                → Loss = orthogonality_loss + 2*focal_perceptual_Loss + focal_mse_reconstruction                         
                 → optimizer = optim.Adam()
                 → number of epochs= 100
                 → batch_size = 16
