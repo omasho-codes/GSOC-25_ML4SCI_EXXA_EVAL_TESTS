@@ -128,9 +128,6 @@ small dataset.
 ![image](https://github.com/user-attachments/assets/860ce98e-040d-4f2a-aecc-e54bd7871ae7)
 
 
-
-
-
 # Feature Maps Visualisation:
 
 ### Clearly highlighting , model does captures the kinks and disturbances present in these disks
@@ -139,11 +136,11 @@ small dataset.
 
 ### <p align="center">In first few layers, model is capturing similar information like Fourier Laplacian Filtering got 
 
-![image](https://github.com/user-attachments/assets/d333f28b-b8bd-4556-8fcb-9f05857d72ee)
-
-![image](https://github.com/user-attachments/assets/653adf53-79d5-4d2c-9a0d-49ca0a560cf6)
+![image](https://github.com/user-attachments/assets/0b991d88-cda5-4b89-8c7c-12a904086460)
 
 ### <p align="center">In lower layers, it clearly shows spots are of great importance hence this information is travelling to latent space.
+
+![image](https://github.com/user-attachments/assets/653adf53-79d5-4d2c-9a0d-49ca0a560cf6)
 
 
 
