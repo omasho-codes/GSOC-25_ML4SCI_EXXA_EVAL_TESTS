@@ -21,7 +21,8 @@ I had trouble installing astropy in Colab , so I am sharing my notebook in ipynb
 
     - **Radial Intensity Profile** (see [here](https://github.com/user-attachments/assets/8fc3955b-3f49-4649-88f9-5d8caa4608ab)) , I computed elliptical radial intensity profiles of these images which did provided information about these kinks/turbulences and whole problem was bring down much smaller space from 2D to 1D frequency domain then Conv1d network with constrastive learning.
 
-    - **Fourier Laplacian Filtering** (see [here](./Images/image%20copy.png)) , also called Spectral Laplacian filtering and Difference of Gaussians to highlight edges and        globs.
+    - **Fourier Laplacian Filtering** (see [here](https://github.com/user-attachments/assets/c2ae6e32-ea82-450a-8266-affdd2369c6f)
+ , also called Spectral Laplacian filtering and Difference of Gaussians to highlight edges and        globs.
 
 - for extracting relevant information like kinks/disturbances in the images which carries sufficient information about presence of a planet while narrowing down my input domain / filtering out information like shape, disk structure, orientation which was "not good", However discontinued working on this as I felt this approach is a more "local forced solution" hovering to planet finding only rather than a more generalized global solution. 
 
@@ -60,7 +61,7 @@ small dataset.
   ![image](https://github.com/user-attachments/assets/9911175d-dc1d-4d5d-ae07-c193925f6412)
 
 
--In Future, I will be trying training equivariant architectures on large datasets then using those trained models here, these may provide better results like ImageNet pretained non-equivariant models did, as now they more sense of processing of images.
+- In Future, I will be trying training equivariant architectures on large datasets then using those trained models here, these may provide better results like ImageNet pretained non-equivariant models did, as now they more sense of processing of images.
 
 # Results & Obeservations:
 
@@ -113,10 +114,20 @@ small dataset.
 
 ## Some Non-Trivial Reconstructions :
 
+- One Important thing to note , when transforming input image with E(2) tranformations , their reconstructed images didn't predictably transformed as with equivariant architecture highlighting generalisbility of equivariance over augmentation with small datasets.
 
-![image](https://github.com/user-attachments/assets/860ce98e-040d-4f2a-aecc-e54bd7871ae7)
+  
+### <p align="center">By ConvNext-Tiny based autoencoder
+![image](https://github.com/user-attachments/assets/c2bb62de-0d27-4166-9a93-1fa85e65c606)
+
+### <p align="center">By slim D(8) equivariant architecture
 
 ![image](https://github.com/user-attachments/assets/c3e4b83c-3bf8-43e0-b605-1553304e2783)
+
+### <p align="center">Clearly shows model prefer reconstructing spots , meaning they must be have been captured in latent representations.
+![image](https://github.com/user-attachments/assets/860ce98e-040d-4f2a-aecc-e54bd7871ae7)
+
+
 
 
 
@@ -126,9 +137,13 @@ small dataset.
 
 ![image](https://github.com/user-attachments/assets/22e435a1-9f8c-44c4-9f93-0dc77966a93d)
 
+### <p align="center">In first few layers, model is capturing similar information like Fourier Laplacian Filtering got 
+
 ![image](https://github.com/user-attachments/assets/d333f28b-b8bd-4556-8fcb-9f05857d72ee)
 
 ![image](https://github.com/user-attachments/assets/653adf53-79d5-4d2c-9a0d-49ca0a560cf6)
+
+### <p align="center">In lower layers, it clearly shows spots are of great importance hence this information is travelling to latent space.
 
 
 
@@ -263,7 +278,7 @@ small dataset.
 
 [VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning](https://arxiv.org/abs/2105.04906)
 
-[General E(2)-Equivariant Steerable CNNs](https://arxiv.org/abs/2202.03990)
+[General E(2)-Equivariant Steerable CNNs](https://arxiv.org/abs/1911.08251)
 
 [Generalizing Convolutional Neural Networks for Equivariance to Lie Groups on Arbitrary Continuous Data](https://arxiv.org/abs/2002.12880)
   
