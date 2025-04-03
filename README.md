@@ -283,5 +283,8 @@ by main focus was on structure preservation, focusing on spots and eliminating s
 [General E(2)-Equivariant Steerable CNNs](https://arxiv.org/abs/1911.08251)
 
 [Generalizing Convolutional Neural Networks for Equivariance to Lie Groups on Arbitrary Continuous Data](https://arxiv.org/abs/2002.12880)
+
+[Revisiting Data Augmentation for Rotational Invariance in Convolutional Neural Networks
+](https://arxiv.org/abs/2310.08429)
   
 
