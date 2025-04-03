@@ -21,7 +21,7 @@ I had trouble installing astropy in Colab , so I am sharing my notebook in ipynb
 
     - **Radial Intensity Profile** (see [here](https://github.com/user-attachments/assets/8fc3955b-3f49-4649-88f9-5d8caa4608ab)) , I computed elliptical radial intensity profiles of these images which did provided information about these kinks/turbulences and whole problem was bring down much smaller space from 2D to 1D frequency domain then Conv1d network with constrastive learning.
 
-    - **Fourier Laplacian Filtering** (see [here](https://github.com/user-attachments/assets/c2ae6e32-ea82-450a-8266-affdd2369c6f)
+    - **Fourier Laplacian Filtering** (see [here](https://github.com/user-attachments/assets/c2ae6e32-ea82-450a-8266-affdd2369c6f))
  , also called Spectral Laplacian filtering and Difference of Gaussians to highlight edges and        globs.
 
 - for extracting relevant information like kinks/disturbances in the images which carries sufficient information about presence of a planet while narrowing down my input domain / filtering out information like shape, disk structure, orientation which was "not good", However discontinued working on this as I felt this approach is a more "local forced solution" hovering to planet finding only rather than a more generalized global solution. 
