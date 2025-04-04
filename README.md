@@ -156,13 +156,11 @@ by main focus was on structure preservation, focusing on spots and eliminating s
 ![image](https://github.com/user-attachments/assets/b242c2e4-0824-4696-afbf-017693904a1b)
 
 
-![image](https://github.com/user-attachments/assets/8be610a8-11c2-4a6b-a4ec-1b11b3f41a49)
+![image](https://github.com/user-attachments/assets/19956d97-515f-4f34-8373-8d66bd0dc795)
 
 
-![image](https://github.com/user-attachments/assets/0a7f7fe6-5ff6-4424-b8ee-373026f364af)
 
-
-![image](https://github.com/user-attachments/assets/7ce36e3e-5939-4440-9c93-69bbad4031ce)
+![WhatsApp Image 2025-04-01 at 11 23 53_80cf52da](https://github.com/user-attachments/assets/f3ad7b70-43eb-4f07-aed0-cd855b3c1588)
 
 
 
