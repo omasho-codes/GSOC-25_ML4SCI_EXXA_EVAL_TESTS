@@ -143,6 +143,12 @@ by main focus was on structure preservation, focusing on spots and eliminating s
 ![image](https://github.com/user-attachments/assets/860ce98e-040d-4f2a-aecc-e54bd7871ae7)
 
 
+### Though my reconstructions may not look good , but I choose latent represenations over using a deep encoder which memorises all 150 images without information from bottleneck.
+
+![image](https://github.com/user-attachments/assets/f4750c79-8047-4662-9ded-2885a895db24)
+
+
+
 # Feature Maps Visualisation:
 
 ### Clearly highlighting , model does captures the kinks and disturbances present in these disks
