@@ -6,6 +6,16 @@ I had trouble installing astropy in Colab , so I am sharing my notebook in ipynb
 
 ## General Task & Images Based Task :  Unsupervised Clustering of Disks & Autoencoder with accesible latent space
 
+
+### For the General Test , 
+- I clustered the latent vectors given by my D(8) truly equivariant autoencoder using Spectral Clustering from sk-learn. I brought all images with no kinks/disturbances together and the second cluster with almost all containing planets with very few outliers.
+
+### For Image-Based Test , 
+- same architecture with more weightage to perceptual loss now , giving more importance to overall structure to capture accurate patterns and preserving planet like objects rather than pixel wise squared difference. One thing to note was, affine transformations to a given image did give perfectly transformed reconstruction highlighting equivariance of the whole pipeline, while in clustering, invariant to these transformations as latent vectors were obtained after group pooling and global average pooling. 
+
+- Also before comparing MSE or perceptual loss note that I didn't use them directly I used focal MSE and focal perceptual, to make them focus on poorly constructed images to eliminate a few issues that I faced.
+
+
 ### QUICK LINKS   
 
 | Resource Type                          | Description                                       | Link |
